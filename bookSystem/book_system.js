@@ -4,7 +4,7 @@ function addBook() {
     const bookName = document.getElementById('bookName').value;
     const authorName = document.getElementById('authorName').value;
     const bookDescription = document.getElementById('bookDescription').value;
-    const pageNumber = parseInt(document.getElementById('pageNumber').value);
+    const pageNumber = parseInt(document.getElementById('pagesNumber').value);
     if (bookName && authorName && bookDescription && !isNaN(pageNumber)) {
         const book = {
             name: bookName,
